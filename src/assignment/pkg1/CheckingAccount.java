@@ -67,9 +67,7 @@ public class CheckingAccount extends Account implements Serializable{
   public double getTotalServiceCharge() {
         return totalServiceCharge;
     }
-  
-          
-          
+    
     public Transaction getTrans(int i) {
         return transList.get(i);
     }
