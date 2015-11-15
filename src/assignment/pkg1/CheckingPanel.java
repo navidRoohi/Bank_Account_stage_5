@@ -68,7 +68,6 @@ public class CheckingPanel extends JPanel implements Serializable {
      */
     public CheckingPanel() {
         
-
         form = new DecimalFormat("$##,##0.00;($##,##0.00)");
 
         text.setFont(new Font("Monospaced", Font.PLAIN, 14));
